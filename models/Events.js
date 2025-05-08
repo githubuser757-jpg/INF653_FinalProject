@@ -1,5 +1,9 @@
 const mongoose = requrie('mongoose');
+<<<<<<< HEAD
 const EventsSchema = new mongoose.Schema({
+=======
+const EventsSchema = new module.Schema({
+>>>>>>> cac34aa822dcbc141001fc7b2505be23661824a1
     title: {
         type: String,
         required: true,

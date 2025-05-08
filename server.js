@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require('dotenv').config();
 
 const express = require('express');
@@ -37,14 +36,3 @@ app.listen(PORT, ()=>{
     console.log(`Server is running on port ${PORT}`);
 });
 })();
-=======
-const express = require('express');
-const app = express();
-
-app.use(express.static('public'));
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, ()=>{
-    console.log(`Server is running on port ${PORT}`);
-});
->>>>>>> cac34aa822dcbc141001fc7b2505be23661824a1
